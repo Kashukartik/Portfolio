@@ -41,7 +41,7 @@ window.addEventListener('scroll', () => {
 // Download resume function
 function downloadResume() {
     // Replace this with your actual resume file path
-    const resumeUrl = 'assets/KartikSingh_CV.pdf';
+    const resumeUrl = 'KartikSingh_CV.pdf';
     
     // Check if file exists, otherwise show alert
     fetch(resumeUrl, { method: 'HEAD' })
@@ -298,4 +298,5 @@ window.portfolioFunctions = {
     createParticles,
     updateActiveNavLink,
     typeWriter
+
 };
